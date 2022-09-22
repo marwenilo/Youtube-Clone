@@ -22,8 +22,9 @@ const SearchBar = () => {
         pl: 2,
         boxshadow: 'none',
         mr: { sm: 5 },
-        display:"flex"
+       
       }}
+      style={{ display:"flex"}}
     >
       <input
         className="search-bar"
